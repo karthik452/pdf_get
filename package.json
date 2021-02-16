@@ -1,0 +1,24 @@
+{
+  "name": "pdfupdateweb",
+  "version": "1.0.0",
+  "description": "pdfweb",
+  "main": "App.js",
+  "scripts": {
+    "start": "node App.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-fetch": "^3.0.6",
+    "express": "^4.17.1",
+    "fetch": "^1.1.0",
+    "node-fetch": "^2.6.1",
+    "node-qpdf": "^1.0.3",
+    "pdf-lib": "^1.14.1",
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.9",
+    "stream": "0.0.2",
+    "whatwg-fetch": "^3.5.0"
+  }
+}
